@@ -1,0 +1,17 @@
+[package]
+name = "timers_test"
+version = "0.0.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ic-cdk = { version =  "0.6.8", features = ["timers"] }
+ic-cdk-macros = "0.6.8"
+candid = "0.8.4"
+boa_engine = { git = "https://github.com/demergent-labs/boa", rev = "3aea26e5419fd67327541b2d4d1323e5e60c2a52" }
+# getrandom = { version = "0.2.3", features = ["custom"] }
+# serde = "1.0.137"
+# azle-vm-value-derive = { path = "./azle_vm_value_derive" }
+# async-recursion = "1.0.0"

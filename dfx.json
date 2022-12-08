@@ -1,0 +1,12 @@
+{
+  "canisters": {
+    "timers_test": {
+      "type": "rust",
+      "package": "timers_test",
+      "candid": "src/lib.did",
+      "declarations": {
+        "output": "dfx_generated/rust"
+      }
+    }
+  }
+}
